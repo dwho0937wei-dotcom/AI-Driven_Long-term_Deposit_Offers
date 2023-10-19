@@ -39,7 +39,7 @@ there are no null values in any of the input (features) and output (y) variables
 
 However, that is when reading the data description given to me in this problem becomes significant.
 When reading the description carefully, I've realized that features job, marital, education, default, housing, and loan have the value "unknown" interpreted as their missing value.
-I decided on a whim to count the value 999 in feature pdays as a missing value too even though it means that the customer hasn't been previously contacted.
+I decided on a whim to count the value 999 in feature pdays as a missing value too even though it means that the customer hasn't been previously contacted according to the data description.
 
 When creating a dictionary of the specified features with their corresponding frequency of missing values, I have:
 
@@ -58,3 +58,8 @@ Missing Values
  I used the IterativeImputer to replace all "999" values in feature pdays.
 
  ## Problem 4: Understanding the Task
+ Here, I simply stated the *Business Objective*. This is my following response:
+
+ The *Business Objective* is to find the best classification model for predicting whether the customer will subscribe to a term deposit offer or not based on the available data description of the customer. That way, the Portuguese banking can most accurately predict which customer will likely accept the offer or not and respond accordingly.
+
+ ## Problem 5: Engineering Features
