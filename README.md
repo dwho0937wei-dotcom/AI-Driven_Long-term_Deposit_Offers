@@ -1,3 +1,6 @@
+JupyterNotebook Link:                                                                                                         
+https://github.com/dwho0937wei-dotcom/Module17_Project/blob/main/prompt_III.ipynb 
+
 # Practical Application III
 
 In this Practical Application 3 (PA3), I will be going through what I did in the 10 Problems assigned to me.
